@@ -3,7 +3,7 @@ import chalk from 'chalk'
 import { fileURLToPath } from 'url' 
 
 global.owner = [
-  ['50231458537', 'Owner', true],
+  ['972527282076', 'Owner', true],
   ['595975655723']
 ] //Numeros de owner 
 
@@ -20,23 +20,23 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = '𝑩𝒓𝒐𝒍𝒚𝑩𝒐𝒕-𝑴𝑫' 
-global.author = '𝑩𝒓𝒂𝒚𝒂𝒏𝒀𝒕' 
+global.packname = '𝐑𝐄𝐍𝐆𝐄𝐋 𝐌𝐄𝐋𝐇𝐎𝐑 𝐁𝐎𝐓' 
+global.author = '𝐑𝐄𝐍𝐆𝐄𝐋' 
 
 //--info FG
-global.botName = '𝑩𝒓𝒐𝒍𝒚𝑩𝒐𝒕-𝑴𝑫'
-global.fgig = 'https://instagram.com/brayanff502' 
-global.fgsc = 'https://github.com/El-brayan502/Broly-bot-MD' 
-global.fgyt = 'https://youtube.com/Naufrapo'
-global.fgpyp = 'https://paypal.me/broly'
-global.fglog = 'https://i.ibb.co/1zdz2j3/logo.jpgs' 
+global.botName = '𝐑𝐄𝐍𝐆𝐄𝐋 𝐌𝐄𝐋𝐇𝐎𝐑 𝐁𝐎𝐓'
+global.fgig = '' 
+global.fgsc = '' 
+global.fgyt = ''
+global.fgpyp = ''
+global.fglog = '' 
 
 //--- Grupos WA
-global.id_canal = '120363312092804854@newsletter' //-ID de canal de WhatsApp
-global.fgcanal = 'https://whatsapp.com/channel/0029VajUPbECxoB0cYovo60W'
-global.bgp = 'https://chat.whatsapp.com/LQalZQmmYuqAdvsxyHUjno'
-global.bgp2 = 'https://chat.whatsapp.com/LQalZQmmYuqAdvsxyHUjno'
-global.bgp3 = 'https://chat.whatsapp.com/BoaRPJlKLnN4Ay3ebSTaDi' //--GP NSFW
+global.id_canal = '' //-ID de canal de WhatsApp
+global.fgcanal = ''
+global.bgp = ''
+global.bgp2 = ''
+global.bgp3 = '' //--GP NSFW
 
 global.wait = '⌛ _Cargando..._\n*▬▬▬▭*'
 global.rwait = '⌛'
