@@ -50,16 +50,11 @@ let infobt = `
 ❒ Total Chats: *${chats.length}*
 
 *≡ OWNERS*
-  *Brayan*
-❒ Instagram :
-  • ${fgig}
+  *Rengel*
 
-❒ Grupos : 
-  • https://atom.bio/brolybot-md
-  
  *≡ HELPERS*
-  *BRAYANYT*
-❒ WhatsApp : wa.me/50231458537`
+  *Rengel Desarrollador principal*
+❒ WhatsApp : wa.me/972527282076`
 
 /*conn.sendButton(m.chat, infobt, mssg.ig, null, [
   ['ꨄ︎ Apoyar', `${usedPrefix}donate`],
