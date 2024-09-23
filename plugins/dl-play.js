@@ -2,7 +2,7 @@ import yts from 'yt-search';
 
 let handler = async (m, { conn, command, args, text, usedPrefix }) => {
     if (!text) {
-        return conn.reply(m.chat, '*Que quieres que busque 𝑩𝒓𝒐𝒍𝒚𝑩𝒐𝒕-𝑴𝑫*', m);
+        return conn.reply(m.chat, '*Que quieres que busque 𝐑𝐄𝐍𝐆𝐄𝐋 𝐁𝐎𝐓*', m);
     }
 
     await m.react('⏳');
@@ -23,12 +23,12 @@ let handler = async (m, { conn, command, args, text, usedPrefix }) => {
     txt += `> *𝚅𝚒𝚜𝚒𝚝𝚊𝚜* : _${views.toLocaleString()}_\n`;
     txt += `> *𝙻𝚒𝚗𝚔* : _https://www.youtube.com/watch?v=${videoId}_\n`;
     txt += '┗─══──━══─| ✠ |─══━─═──┛ \n';
-    txt += '𝑩𝒓𝒐𝒍𝒚𝑩𝒐𝒕-𝑴𝑫';
+    txt += '𝐑𝐄𝐍𝐆𝐄𝐋 𝐌𝐄𝐋𝐇𝐎𝐑 𝐁𝐎𝐓';
 
     await conn.sendButton2(m.chat, txt, '. ', thumbnail, [
         ['MP3', `${usedPrefix}ytmp3 ${url}`],
-        ['MENU BROLY', `${usedPrefix}menu ${url}`],
-        ], null, [['Canal', 'https://whatsapp.com/channel/0029VajUPbECxoB0cYovo60W']], m);
+        ['MENU RENGEL', `${usedPrefix}menu ${url}`],
+        ], null, [['Canal', '']], m);
 
     await m.react('✅');
 };
