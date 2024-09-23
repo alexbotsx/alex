@@ -42,7 +42,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
   let speed = neww - old
   
 let infobt = `
-≡ *𝐈𝐍𝐅𝐎 𝐁𝐑𝐎𝐋𝐘*
+≡ *𝐈𝐍𝐅𝐎 𝐑𝐄𝐍𝐆𝐄𝐋 𝐁𝐎𝐓*
   
 *ESTADO*
 ❒ ${mssg.gp}s: *${groupsIn.length}*
