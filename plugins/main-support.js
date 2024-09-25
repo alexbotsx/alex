@@ -21,12 +21,12 @@ ${bgp3}
 ▢ Todos los Grupos
  https://atom.bio/brolybot-md
 
-▢ *Telegram*
-• https://t.me/fgawgp
- ▢ *PayPal*
-• https://paypal.me/fg98f
-▢ *YouTube*
-• https://www.youtube.com/fg98f`)
+▢ *Rengel1*
+• 
+ ▢ *Rengel2*
+• 
+▢ *Rengel3*
+• `)
 
 }
 handler.help = ['support']
