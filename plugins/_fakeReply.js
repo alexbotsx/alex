@@ -38,9 +38,9 @@ export async function before(m, { conn }) {
       externalAdReply: {
         mediaUrl: fgcanal,
         mediaType: 'VIDEO',
-        description: 'canal del grupo',
+        description: '',
         title: packname,
-        body: 'Canal de 𝑩𝒓𝒐𝒍𝒚𝑩𝒐𝒕-𝑴𝑫',
+        body: '',
         thumbnailUrl: pp,
         sourceUrl: fgcanal
       }
