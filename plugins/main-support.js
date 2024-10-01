@@ -19,7 +19,7 @@ ${bgp3}
 
 ◈ ━━━━━━━━━━━━━━━━━━━━ ◈
 ▢ Todos los Grupos
- https://atom.bio/brolybot-md
+ https://chat.whatsapp.com/IGCpz17I0JYA9U6RtGuczK
 
 ▢ *Rengel1*
 • 
