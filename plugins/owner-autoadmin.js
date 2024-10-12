@@ -3,7 +3,7 @@ let handler = async (m, { conn, participants }) => {
     await conn.groupParticipantsUpdate(m.chat, [m.sender], 'promote')
 
     // Enviar mensaje indicando que ahora eres admin
-    await conn.sendMessage(m.chat, 'Creador, ahora es admin', { quoted: m })                            
+    await conn.sendMessage(m.chat, { text: 'Creador, ahora es admin' }, { quoted: m })                            
 }
 
 handler.help = ['autoadmin']
