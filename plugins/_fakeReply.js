@@ -1,9 +1,9 @@
 
 import fetch from 'node-fetch';
 export async function before(m, { conn }) {
-   let pp = await this.profilePictureUrl(m.sender, 'image').catch(_ => 'https://qu.ax/lEAM.jpg');
+   let pp = await this.profilePictureUrl(m.sender, 'image').catch(_ => 'https://i.postimg.cc/285dGqDk/gigachad-777.webp');
 
-  let nam = "𝑩𝒓𝒐𝒍𝒚𝑩𝒐𝒕-𝑴𝑫 [𝑪𝒉𝒂𝒏𝒆𝒍]"
+  let nam = ""
   
   // Respuesta con enlace de WhatsApp
   global.rpl = {
