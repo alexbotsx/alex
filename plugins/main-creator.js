@@ -1,9 +1,9 @@
 let handler = async (m, { conn, usedPrefix, isOwner }) => {
-  let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;RengelSix9;;\nFN:RengelSix9\nORG:RengelSix9\nTITLE:\nTEL;waid=972527282076:5218261275256\nX-ABLabel:RengelSix9\nEND:VCARD`
+  let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;RengelSxnt;;\nFN:RengelSxnt\nORG:RengelSxnt\nTITLE:\nTEL;waid=972527282076:5218261275256\nX-ABLabel:RengelSxnt\nEND:VCARD`
   
   await conn.sendMessage(m.chat, { 
     contacts: { 
-      displayName: 'RengelSix9', 
+      displayName: 'RengelSxnt', 
       contacts: [{ vcard }] 
     }
   }, { quoted: m })
