@@ -12,8 +12,8 @@ m.reply(`
     
 }
 
-handler.help = ['script']
-handler.tags = ['tools']
-handler.command = ['sc', 'git', 'script'] 
+handler.help = ['scriptttttttttttttttttttt']
+handler.tags = ['toollllllllllls']
+handler.command = ['scccccccc', 'gittttttttttt', 'scripttttttttttttt'] 
 
 export default handler
