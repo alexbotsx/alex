@@ -2,7 +2,7 @@
 import fetch from 'node-fetch'
 const regex = /(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i
 let handler = async (m, { conn, args, usedPrefix, command }) => {
-    if (!args[0]) throw `${mssg.noLink('GitHub')}\n\n📌 ${mssg.example} : ${usedPrefix + command} https://github.com/El-brayan502/Broly-bot-MD`
+    if (!args[0]) throw `${mssg.noLink('GitHub')}\n\n📌 ${mssg.example} : ${usedPrefix + command} `
     if (!regex.test(args[0])) throw `⚠️ ${mssg.noLink('GitHub')}`
     let [_, user, repo] = args[0].match(regex) || []
     repo = repo.replace(/.git$/, '')
@@ -15,7 +15,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 }
 handler.help = ['gitclone <url>']
 handler.tags = ['dl']
-handler.command = ['gitclone'] 
+handler.command = ['gitcloneeee'] 
 handler.diamond = true
 
 export default handler
