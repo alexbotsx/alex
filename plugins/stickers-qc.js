@@ -12,10 +12,10 @@ let text
         text = args.slice(0).join(" ")
     } else if (m.quoted && m.quoted.text) {
         text = m.quoted.text
-    } else throw "𝙄𝙉𝙂𝙍𝙀𝙎𝙀 𝙀𝙇 𝙏𝙀𝙓𝙏𝙊 𝙌𝙐𝙀 𝘿𝙀𝙎𝙀𝘼 𝘾𝙊𝙉𝙑𝙀𝙍𝙏𝙄𝙍 𝘼 𝙎𝙏𝙄𝘾𝙆𝙀𝙍 "
+    } else throw "Ingrese el texto que desea convertir a sticker "
    if (!text) return m.reply('𝙔 𝙀𝙇 𝙏𝙀𝙓𝙏𝙊?')
    if (text.length > 30) return m.reply('𝙈𝘼𝙓𝙄𝙈𝙊 30 𝙋𝘼𝙇𝘼𝘽𝙍𝘼𝙎!')
-    let pp = await conn.profilePictureUrl(m.sender, 'image').catch(_ => 'https://i.postimg.cc/QNf9Ybbq/imgazul.avif')
+    let pp = await conn.profilePictureUrl(m.sender, 'image').catch(_ => 'https://telegra.ph/file/a2ae6cbfa40f6eeea0cf1.jpg')
 
    const obj = {
       "type": "quote",
