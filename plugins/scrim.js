@@ -1,7 +1,7 @@
 const handler = async (m, {conn}) => {
   m.reply(global.Vs8);
 };
-handler.command = /^(Vs8)$/i;
+handler.command = /^(scrim)$/i;
 export default handler;
 handler.group = true
 handler.botAdmin = true
