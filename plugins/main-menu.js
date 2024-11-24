@@ -177,13 +177,32 @@ const defaultMenu = {
 ┣┅⟣ ❒ .unbanchat
 ┣┅⟣ ❒ .update
 ┗━━━━━━━━━━━━━━━━━━━┛
+≡ Use estos comandos sin el prefijo: .
+╭━━━〔 AUDIOS 〕━━━◉
+┃╭━━━━━━━━━━━━━━━━━ 
+┃┃ Buenos días
+┃┃ Buenas tardes 
+┃┃ Buenas noches
+┃┃ Fino señores
+┃┃ Sad
+┃┃ Motivación
+┃┃ fiesta viernes
+┃┃ Uwu
+┃┃ Estoy triste
+┃┃ un Pato
+┃┃ ara ara
+┃┃ Bueno master
+┃┃ Calla Fan de bts
+┃┃ Tengo los calzones
+┃╰──────────────
+╰━━━━━━━━━━━━━━◉
 ┏━━━━━━MENU FF━━━━━┓
 ┣┅⟣ ❒ .vs4 
 ┣┅⟣ ❒ .vs6
-┣┅⟣ ❒ 
-┣┅⟣ ❒ 
-┣┅⟣ ❒ 
-┣┅⟣ ❒ 
+┣┅⟣ ❒ .vs8
+┣┅⟣ ❒ .vs12
+┣┅⟣ ❒ .vs20
+┣┅⟣ ❒ .scrim
 ┗━━━━━━━━━━━━━━━━━━━┛
 `
 }
