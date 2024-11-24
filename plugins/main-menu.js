@@ -129,8 +129,8 @@ const defaultMenu = {
 ┣┅⟣ ❒ .rules
 ┣┅⟣ ❒ .setbye <text>
 ┣┅⟣ ❒ .setrules <text>
-┣┅⟣ ❒ .group
-┣┅⟣ ❒ .grupo
+┣┅⟣ ❒ .grupo abrir
+┣┅⟣ ❒ .grupo cerrar
 ┣┅⟣ ❒ .setwelcome <text>
 ┣┅⟣ ❒ .setbye <text>
 ┣┅⟣ ❒ .simulate <event> @user
