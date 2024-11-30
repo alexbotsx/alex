@@ -14,7 +14,7 @@ let text
         text = m.quoted.text
     } else throw "Ingrese el texto que desea convertir a sticker "
    if (!text) return m.reply('𝙔 𝙀𝙇 𝙏𝙀𝙓𝙏𝙊?')
-   if (text.length > 30) return m.reply('𝙈𝘼𝙓𝙄𝙈𝙊 30 𝙋𝘼𝙇𝘼𝘽𝙍𝘼𝙎!')
+   if (text.length > 100) return m.reply('𝙈𝘼𝙓𝙄𝙈𝙊 30 𝙋𝘼𝙇𝘼𝘽𝙍𝘼𝙎!')
     let pp = await conn.profilePictureUrl(m.sender, 'image').catch(_ => 'https://i.postimg.cc/htvVSYCv/Whats-App-Image-2024-11-09-at-9-58-08-AM.jpg')
 
    const obj = {
