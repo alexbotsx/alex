@@ -19,7 +19,7 @@ let handler = async (m, { conn, command, args, text, usedPrefix }) => {
             additionalText = '𝐝𝐞𝐥 𝐯𝐢𝐝𝐞𝐨'
         }
         
-        let nomeDelBot = global.db.data.nomedelbot || `𝐁𝐢𝐱𝐛𝐲𝐁𝐨𝐭-𝐌𝐝 🔮`
+        let nomeDelBot = global.db.data.nomedelbot || `𝐑𝐞𝐧𝐠𝐞𝐥𝐃𝐞𝐯`
         
 const BixbyChar = (str) => {
 return str.split('').map(char => {
