@@ -42,6 +42,14 @@ const defaultMenu = {
 ┣┅⟣ ❒ .follar @tag
 ┣┅⟣ ❒ .formarparejas
 ┣┅⟣ ❒ .ytcomment
+┣┅⟣ ❒ .ruletaban
+┣┅⟣ ❒ .love @tag @tag
+┣┅⟣ ❒ .lesbiana @tag
+┣┅⟣ ❒ .pajero/pajera @tag
+┣┅⟣ ❒ .puto/puta @tag
+┣┅⟣ ❒ .manco/manca @tag
+┣┅⟣ ❒ .rata @tag
+┣┅⟣ ❒ .prostituto/a @tag
 ┗━━━━━━━━━━━━━━━━━━━━
 ┏━━━━━━NIVEL & ECONOMIA━━━━━┓
 ┣┅⟣ ❒ .balance
