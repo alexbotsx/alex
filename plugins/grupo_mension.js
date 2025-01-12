@@ -8,9 +8,10 @@ const handler = async (m, {isOwner, isAdmin, conn, text, participants, args, com
   }
   const pesan = args.join` `;
   const oi = `${pesan}`;
-  let teks = `📢 𝐈𝐍𝐕𝐎𝐂𝐀𝐍𝐃𝐎 𝐓𝐀𝐋𝐈𝐁𝐀𝐍𝐄𝐒 📢.\n\nMensaje: ${oi}\n\n`;
+  let teks = `🎭  Venta de bots, plataformas de streaming, cuentas ff, Regedit , recargas de diamantes, etc.
+ https://chat.whatsapp.com/LbdiPrImAbI67gaA5Dyf3j.\n\nMensaje: ${oi}\n\n`;
   for (const mem of participants) {
-    teks += `🖥️ @${mem.id.split('@')[0]}\n`;
+    teks += `🔱 @${mem.id.split('@')[0]}\n`;
   }
   teks += `${wm}\n\n`; // Se agrega la firma wm aquí
   conn.sendMessage(m.chat, {text: teks, mentions: participants.map((a) => a.id)} );
